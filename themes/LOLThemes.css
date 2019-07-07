@@ -1,4 +1,8 @@
 //META{"name":"LOL Theme","description":"COOL and Basic LOL Theme","author":"Epog","version":"1.0"}*//
 
-@import url(https://github.com/DiscordPug/themes/blob/master/themes/LOL.css);
+
+:root {
+   --nothing: 0.0.0;
+}
+@import url(https://raw.githubusercontent.com/DiscordPug/themes/master/themes/LOL.css);
 
