@@ -1,3 +1,17 @@
+:root {
+
+    --round: 50%; /* 0% Square, 50% Circle */
+    
+    --sGlow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
+
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+    
+}
 .wordmark-2iDDfm svg {
   display: none;
 }
@@ -56,7 +70,7 @@
 }
 
 #app-mount {
-   background-image: url(http://lienminh360.vn/wp-content/uploads/2016/10/environmentart-sru-04_1920_1.jpg);
+   background-image: url(https://cdn-images-1.medium.com/max/1600/1*tJM-jXeFNnQrLwuw6w02BQ.jpeg);
    background-size: cover;
    background-position: center;
 
@@ -118,6 +132,11 @@
 
 .roleCircle-3xAZ1j {
   display: none;
+}
+#app-mount .wrapper-2F3Zv8 {
+    background-color: transparent;
+    box-radius
+    box-shadow: 0 0 0px 3px #00ff00 !important;
 }
 
 .addButton-pcyyf6 {
@@ -191,7 +210,13 @@
    border-radius: 0;
    border: none
 }
+.header-2BwW8b { 
+        background-color: rgba(0, 0, 0, 0.3);
 
+}
+.headerPlaying-j0WQBV {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 .scroller-2FKFPG::-webkit-scrollbar,
 .scroller-wrap .scroller::-webkit-scrollbar {
@@ -236,7 +261,6 @@
 .theme-dark .closeButton-1tv5uR {
     border-color: transparent
 }
-
 
 
 
